@@ -7,9 +7,9 @@ const authenticate = require("../middleware/authenticate");
 
 require('../db/conn');
 const User = require("../models/userSchema");
-router.get('/',(req,res)=>{
-    res.send("ello idiya illa idene");
-});
+// router.get('/',(req,res)=>{
+//     res.send("ello idiya illa idene");
+// });
 //using promises
 // router.post('/register',async (req, res)=>{
 //     const {name,email, phone, work, password,confirmpassword} = req.body;
