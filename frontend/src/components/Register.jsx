@@ -1,6 +1,7 @@
 import React ,{useState} from 'react';
 import { NavLink, useHistory } from 'react-router-dom';
 
+
 export default function Register(){
     const history = useHistory();
     const [user, setUser]= useState({
